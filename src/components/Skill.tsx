@@ -24,6 +24,7 @@ const Skill = () => {
   return (
     <div className="skillContainer">
       <h1> Skills</h1>
+
       <div className="skillImage">
         <h2>Technical Skills</h2>
         <div className="item">
@@ -46,6 +47,9 @@ const Skill = () => {
           <img src={data}></img>
           <div>Data Backup and Recovery</div>
         </div>
+      </div>
+      <div className="whiteBox" style={{ marginLeft: "10vw" }}></div>
+      <div className="skillImage">
         <div className="item">
           <img src={ibm}></img>
           <div>IBM Cybersecurity Analyst</div>
@@ -79,6 +83,7 @@ const Skill = () => {
           <div>Virtual Machine</div>
         </div>
       </div>
+      <div className="whiteBox" style={{ marginLeft: "30vw" }}></div>
       <div className="skillImage">
         <h2>Programming Skills</h2>
         <div className="item">

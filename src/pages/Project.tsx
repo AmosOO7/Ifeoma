@@ -9,6 +9,7 @@ const Project = () => {
     <div>
       <Projects
         number="1"
+        box="10vw"
         tech="React, HTML, CSS, TypeScript, JavaScript"
         link="https://cubessquares.netlify.app/"
         image={cube}
@@ -16,6 +17,7 @@ const Project = () => {
       />
       <Projects
         number="2"
+        box="50vw"
         tech="React, HTML, CSS, TypeScript, JavaScript"
         link="https://commerca.netlify.app"
         image={ecom}
@@ -24,6 +26,7 @@ const Project = () => {
       <Projects
         tech="HTML, CSS, JavaScript"
         number="3"
+        box="20vw"
         link="https://nostalgic-gates-9b466c.netlify.app/thegame"
         image={cal}
         content="The game is designed to make learning and practicing math fun and interactive. It helps players, especially children and students, improve their math skills, such as addition, subtraction, multiplication, and division, as well as number recognition and sequencing. The game combines engaging visuals, sound effects, and gamified elements to encourage continuous learning."
@@ -31,6 +34,7 @@ const Project = () => {
       <Projects
         tech="HTML, CSS, JavaScript"
         number="4"
+        box="1vw"
         link="https://nostalgic-gates-9b466c.netlify.app/saes"
         image={ecomm}
         content="The website is designed to sell mobile phones, laptops, and related accessories. It combines sleek, modern design with a focus on showcasing product features and specifications, catering to both tech-savvy shoppers and casual buyers. The platform emphasizes ease of navigation, detailed product information, and trust-building elements like customer reviews and secure payment options."
@@ -38,6 +42,7 @@ const Project = () => {
       <Projects
         tech="HTML, CSS, JavaScript"
         number="5"
+        box="60vw"
         link="https://nostalgic-gates-9b466c.netlify.app/lo"
         image={pic}
         content="The website is designed to provide users with a platform for discovering and downloading high-quality images. It caters to a diverse audience, including graphic designers, photographers, marketers, and casual users. The platform emphasizes ease of use, fast downloads, and a well-organized library of photos across various categories."

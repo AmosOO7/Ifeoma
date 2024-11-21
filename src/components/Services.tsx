@@ -7,6 +7,7 @@ const Services = () => {
       <h1>Services</h1>
       <div className="details">
         <img src={tech}></img>
+
         <p>
           With over 4 years of experience, I specialize in technical support,
           system administration, and cybersecurity. I have assisted renowned
@@ -19,7 +20,9 @@ const Services = () => {
           and Technical Support Fundamentals, ensuring up-to-date expertise in
           the field.
         </p>
+        <div className="whiteBox" style={{ marginLeft: "20vw" }}></div>
         <img src={software}></img>
+
         <p>
           I provide software development services, leveraging my expertise in
           Java, PHP, HTML, CSS, JavaScript, React, and React Native. My services

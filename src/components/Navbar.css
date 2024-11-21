@@ -5,6 +5,7 @@
     background-color: #fff;
     top: 0;
     z-index: 3;
+    box-shadow: 10px 10px 50px 50px #fff;
 }
 ul{
     list-style: none;
@@ -20,6 +21,7 @@ li a:hover{
     border-radius: 10px;
     padding: 0 1vw;
     height: 4vh;
+    box-shadow: 10px 10px 50px 50px #242424;
 }
 a{
     text-decoration: none;
