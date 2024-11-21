@@ -1,26 +1,33 @@
 import "./Header.css";
-import linkedIn from "../assets/linkedin.png";
-import gmail from "../assets/gmail.png";
-import github from "../assets/gitHub.jpg";
+import insta from "../assets/Instagram.png";
+import linkedin from "../assets/linkedin.png";
 const Header = () => {
   return (
-    <div className="container">
-      <div className="content">
-        <h1>Hello!</h1>
-        <h1>Welcome</h1>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/akinsiku-ayokunle-a03021177/"
-        >
-          <img src={linkedIn}></img>
-        </a>
-        <a target="_blank" href="mailto:ayokunleakinsiku00@gmail.com">
-          <img src={gmail}></img>
-        </a>
-        <a target="_blank" href="https://github.com/AmosOO7">
-          <img src={github}></img>
-        </a>
+    <div className="HContainer">
+      <div className="h1">
+        <h1>Welcome to </h1>
+        <h1>Ifeoma Uchefunah</h1>
+        <div
+          className="whiteBox"
+          style={{ marginLeft: "1vw", color: "#fff" }}
+        ></div>
+        <div className="content">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/ifeoluwa_u?igsh=MXgwOXFycmt6OXd6Yg=="
+          >
+            <img src={insta}></img>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/ifeoma-uchefunah-2034421ab/"
+          >
+            <img src={linkedin}></img>
+          </a>
+        </div>
       </div>
+
+      <div className="image"></div>
     </div>
   );
 };

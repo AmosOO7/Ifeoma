@@ -1,9 +1,8 @@
 .skillContainer{
-    text-align: center;
-}
-.skillContainer{
     width: auto;
     margin: auto;
+    text-align: center;
+    padding: 10vh;
 }
 .item{
   display: inline-block;
