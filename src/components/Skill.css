@@ -1,0 +1,14 @@
+.skillContainer{
+    text-align: center;
+}
+.skillContainer{
+    width: auto;
+    margin: auto;
+}
+.item{
+  display: inline-block;
+  margin: 5%;
+}
+h2{
+    margin: 2vh;
+}

@@ -1,0 +1,50 @@
+.navbar{
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: #fff;
+    top: 0;
+    z-index: 3;
+}
+ul{
+    list-style: none;
+    width: 100vw;
+}
+li{
+    cursor: pointer;
+}
+li a:hover{
+    background-color: #242424;
+    color: #fff;
+    transition: .5s;
+    border-radius: 10px;
+    padding: 0 1vw;
+    height: 4vh;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.siteName{
+    left: 1vw;
+    top: 2.5vh;
+    font-size: 200%;
+    position: absolute;
+}
+.projects{
+    left: 25vw;
+    top: 3vh;
+    font-size: 150%;
+    position: absolute;
+    transition: .5s;
+}
+
+@media (max-width: 700px) {
+    .siteName{
+        font-size: 150%;
+    }
+    .projects{
+        font-size: 100%;
+        left: 40vw;
+    }
+}

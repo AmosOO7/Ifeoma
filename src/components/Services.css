@@ -1,0 +1,11 @@
+.Scontainer{
+    text-align: center;
+    margin: 10vh 0;
+}
+.details{
+    width: 60vw;
+    margin: auto;
+}
+.details p{
+    margin-bottom: 5vh;
+}
