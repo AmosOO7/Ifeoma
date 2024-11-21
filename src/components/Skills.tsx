@@ -8,8 +8,12 @@ import thin from "../assets/thinking.jpg";
 const Skills = () => {
   return (
     <div className="skillContainer">
+      <div
+        className="whiteBox"
+        style={{ color: "pink", marginLeft: "1vw" }}
+      ></div>
       <div className="skillImage">
-        <h2>Technical Skills</h2>
+        <h2>Skills</h2>
         <div className="item">
           <img src={microsoft}></img>
           <div>Advanced Microsoft Office</div>
@@ -34,6 +38,10 @@ const Skills = () => {
           <img src={proj}></img>
           <div>Project Management</div>
         </div>
+        <div
+          className="whiteBox"
+          style={{ color: "pink", marginLeft: "60vw" }}
+        ></div>
       </div>
     </div>
   );
