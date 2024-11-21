@@ -10,5 +10,10 @@
     width: 90vw;
     margin: auto;
     margin-top: 15vh;
-    border: 20px dashed pink;
+  }
+  .ExContainer h1{
+    margin: auto;
+    width: 40vw;
+    border-bottom: 1vh solid pink;
+    text-align: center;
   }

@@ -2,7 +2,7 @@ import Experience from "../components/Experience";
 const Experiences = () => {
   return (
     <div className="ExContainer">
-      <h1>EXPERIENCE</h1>
+      <h1>WORK EXPERIENCE</h1>
       <Experience
         org="OPEN CAPITAL"
         pos="Senior Analyst"
