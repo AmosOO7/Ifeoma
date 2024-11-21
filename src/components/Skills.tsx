@@ -13,7 +13,7 @@ const Skills = () => {
         style={{ color: "pink", marginLeft: "1vw" }}
       ></div>
       <div className="skillImage">
-        <h2>Skills</h2>
+        <h1>Skills</h1>
         <div className="item">
           <img src={microsoft}></img>
           <div>Advanced Microsoft Office</div>
