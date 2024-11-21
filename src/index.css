@@ -6,3 +6,9 @@
     box-sizing: border-box;
     font-family: 'Pacifico', cursive;
   }
+  .ExContainer{
+    width: 90vw;
+    margin: auto;
+    margin-top: 15vh;
+    border: 20px dashed pink;
+  }

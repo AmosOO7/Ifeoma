@@ -32,6 +32,9 @@ a{
     font-size: 200%;
     position: absolute;
 }
+.link{
+    padding: 3vw;
+}
 .projects{
     left: 25vw;
     top: 3vh;
